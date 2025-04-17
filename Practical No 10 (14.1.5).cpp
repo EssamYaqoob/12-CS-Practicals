@@ -1,9 +1,11 @@
 #include <iostream>
 using namespace std;
-
+int operations ();
 int main (){
+operations ();
+}
+operations () {
 double x,y;
-
 cout<<"Enter values of x and y to perform Operations: \t"<<endl;
 cout<<"x:\t";
 cin>>x;
