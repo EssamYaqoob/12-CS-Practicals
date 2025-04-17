@@ -11,19 +11,19 @@ int main() {
     // Concatenate str1 and str2
     strcpy(str2, " World");
     strcat(str1, str2);
-    cout << "str1 after strcat: " << str1 << std::endl;
+    cout << "str1 after strcat: " << str1 << endl;
 
     // Get the length of str1
-    cout << "Length of str1: " << std::strlen(str1) << std::endl;
+    cout << "Length of str1: " << std::strlen(str1) << endl;
 
     // Compare str1 and str2
-    int result = std::strcmp(str1, str2);
+    int result = strcmp(str1, str2);
     if (result == 0) {
-    cout << "str1 and str2 are equal." << std::endl;
+    cout << "str1 and str2 are equal." <<endl;
     } else if (result < 0) {
-    cout << "str1 is less than str2." << std::endl;
+    cout << "str1 is less than str2." <<endl;
     } else {
-    cout << "str1 is greater than str2." << std::endl;
+    cout << "str1 is greater than str2." <<endl;
     }
 
     return 0;
