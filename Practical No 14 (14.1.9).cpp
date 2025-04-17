@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
-// Function to calculate factorial
+//User Defined Function to calculate factorial
+int findfactorial ();
 unsigned long long factorial(int n) {
     if (n == 0 || n == 1)
     return 1;
@@ -9,6 +10,9 @@ unsigned long long factorial(int n) {
 }
 
 int main() {
+findfactorial ();
+}
+findfactorial (){
     int num;
 
     // Ask the user for input
