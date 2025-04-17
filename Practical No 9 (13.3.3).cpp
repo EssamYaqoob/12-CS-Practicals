@@ -14,7 +14,7 @@ int main() {
     cout << "str1 after strcat: " << str1 << endl;
 
     // Get the length of str1
-    cout << "Length of str1: " << std::strlen(str1) << endl;
+    cout << "Length of str1: " << strlen(str1) << endl;
 
     // Compare str1 and str2
     int result = strcmp(str1, str2);
